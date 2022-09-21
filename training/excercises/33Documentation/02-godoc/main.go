@@ -1,7 +1,9 @@
+// documentation 0eawsfjisdjgfsldkgvbnklsdfnvblk
 package main
 
 import "fmt"
 
-func main() {
+// Documentation lelloooo
+func Main() {
 	fmt.Println("HELLLlLLLLLLLLLLL")
 }
