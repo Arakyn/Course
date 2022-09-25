@@ -1,0 +1,15 @@
+Basically to use testing you do go test 
+// To go run a benchmark test first you make func BenchmarkXxx(b *testing.B){
+
+    for i := 0; i < b.N ; i++{
+        code tuimhara which you wanna run
+    }
+} 
+
+
+
+// for coverage to see
+// you runn go test -cover ya -coverage 
+// go test -coverprofile c.out
+// the best way is go tool cover -html=c.out 
+// website khol dega ye puri and you can see which part of the code is covered and not
