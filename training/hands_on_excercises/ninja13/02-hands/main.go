@@ -12,4 +12,5 @@ func main() {
 	for k, v := range word.UseCount(quote.SunAlso) {
 		fmt.Println(v, k)
 	}
+
 }
