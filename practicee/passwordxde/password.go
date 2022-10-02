@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+
 	s := `pagalkutta1233`
 	bs, err := bcrypt.GenerateFromPassword([]byte(s), bcrypt.DefaultCost)
 	if err != nil {
