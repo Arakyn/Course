@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("Hello To The Calculator")
 
 	var fv int
+	fmt.Println("Hi")
 
 	for i := 1; i < 234; i-- {
 		fmt.Println("Please Select The Function To Do with the represented Number.:")
