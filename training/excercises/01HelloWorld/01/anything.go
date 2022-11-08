@@ -16,6 +16,9 @@ func main() {
 		}
 
 	}
+	a := 52
+	fmt.Println(a)
+	fmt.Println(&a)
 }
 func foo() {
 	fmt.Println("HEllo my name is foo")
