@@ -10,10 +10,7 @@ func main() {
 
 	// iterative
 	for i := 0; i < 100; i++ { //loop
-
-		if i%2 == 0 { //conditional
-			fmt.Println(i)
-		}
+		fmt.Printf("%c", i)
 
 	}
 
