@@ -12,16 +12,16 @@ func main() {
 	fmt.Println("GoRoutines", runtime.NumGoroutine())
 	var wg sync.WaitGroup
 	var counter int64
-	const gs = 100
+	const gs = 101
 	wg.Add(gs)
 	for i := 0; i < gs; i++ {
 		go func() {
+			fmt.Println("GoRoutines", runtime.NumGoroutine())
 			atomic.AddInt64(&counter, 1)
 
 			runtime.Gosched()
 			wg.Done()
 		}()
-		fmt.Println("GoRoutines", runtime.NumGoroutine())
 
 	}
 	wg.Wait()

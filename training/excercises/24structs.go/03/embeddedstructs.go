@@ -25,5 +25,6 @@ func main() {
 	}
 	fmt.Println(sa1)
 	fmt.Println(sa1.person.first, sa1.first)
+	fmt.Println(sa1.ltk)
 
 }

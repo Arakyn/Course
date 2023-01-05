@@ -17,6 +17,7 @@ func main() {
 	for i := 0; i < gs; i++ {
 		go func() {
 			mu.Lock()
+			fmt.Println("GoRoutines", runtime.NumGoroutine())
 			v := counter
 			runtime.Gosched()
 			v++

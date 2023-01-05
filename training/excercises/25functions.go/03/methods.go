@@ -14,6 +14,9 @@ type secret struct {
 func (s secret) speak() {
 	fmt.Println("I am", s.first, s.last)
 }
+func (r secret) greet() {
+	fmt.Println("Its nice to meet you, My name is", r.first, r.last)
+}
 
 // func (r reciever) indetifier(paramters) return(s){  code     }
 
@@ -35,4 +38,5 @@ func main() {
 	fmt.Println(p1)
 	p1.speak()
 	p2.speak()
+	p1.greet()
 }
