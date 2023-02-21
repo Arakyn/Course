@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/github.com/Arakyn/Course/training/excercises/35Revision/doggo"
+	"github.com/Arakyn/Course/training/excercises/35Revision/doggo"
 )
 
 func main() {
