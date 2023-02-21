@@ -1,5 +1,4 @@
-// package mymatgs ads shit
-package mymaths
+package maths
 
 func Sum(x ...int) int {
 	sum1 := 0
