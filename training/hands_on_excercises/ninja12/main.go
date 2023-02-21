@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/github.com/Arakyn/Course/training/hands_on_excercises/ninja12/dog"
+	"github.com/Course/training/hands_on_excercises/ninja12/dog"
 )
 
 func main() {

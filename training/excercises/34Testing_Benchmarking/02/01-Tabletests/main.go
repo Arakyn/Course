@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	mymaths "github.com/github.com/Arakyn/Course/training/excercises/33Documentation/02-godoc/01-maths"
+	mymaths "github.com/Arakyn/Course/training/excercises/33Documentation/02-godoc/01-maths"
 )
 
 func main() {

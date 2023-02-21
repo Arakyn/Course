@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/github.com/Arakyn/Course/training/excercises/34Testing_Benchmarking/03-Examples/01/acdc"
+	"github.com/Arakyn/Course/training/excercises/34Testing_Benchmarking/03-Examples/01/acdc"
 )
 
 func main() {
