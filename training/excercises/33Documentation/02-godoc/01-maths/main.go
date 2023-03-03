@@ -1,4 +1,4 @@
-package maths
+package mymaths
 
 func Sum(x ...int) int {
 	sum1 := 0
