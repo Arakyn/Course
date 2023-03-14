@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/arakyn/Course/training/hands_on_excercises/ninja13/02-hands/quote"
-	"github.com/arakyn/Course/training/hands_on_excercises/ninja13/02-hands/word"
+	"github.com/Arakyn/Course/training/hands_on_excercises/ninja13/02-hands/quote"
+	"github.com/Arakyn/Course/training/hands_on_excercises/ninja13/02-hands/word"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/arakyn/Course/training/hands_on_excercises/ninja13/01-hands/mymaththree"
+	"github.com/Arakyn/Course/training/hands_on_excercises/ninja13/01-hands/mymaththree"
 )
 
 type canine struct {

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/arakyn/Course/practice2/01-Task1/Init"
-	"github.com/arakyn/Course/practice2/01-Task1/mod"
+	"github.com/Arakyn/Course/practice2/01-Task1/Init"
+	"github.com/Arakyn/Course/practice2/01-Task1/mod"
 )
 
 func init() {
