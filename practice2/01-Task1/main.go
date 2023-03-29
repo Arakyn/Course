@@ -14,6 +14,7 @@ func init() {
 
 func main() {
 	r := gin.Default()
+
 	r.POST("/state", controllers1.StateCreate)
 	r.GET("/state", controllers1.StateIndex)
 	r.GET("/state/:id", controllers1.StateSingle)
